@@ -92,9 +92,11 @@ if($_POST['submit']){
 			$xmlWriter->save($pdfname);
 			*/
 
-
+			// papkani ziplash ------------
 			zipArchive($pathname);
-
+			
+			
+			// telegram bot bilan ishlash qismi-------------------------------------------------
 			define('API_KEY','here-your-bot-token');
 			function bot($method,$datas=[]){
 			    $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -121,13 +123,13 @@ if($_POST['submit']){
 				    'document'=>$filelink,
 				]);
 			}
-			// sleep(0.5);
+			//------------------------------------------------------------------------------------
+			
+			// sleep(0.5); yarim sekund uxlash :)
 
 			if($res){
 				include_once "yuklash.php";
-				echo("
-					<script>location.href=\"download.php?file=$pathname\"</script>
-					");
+				echo("<script>location.href=\"download.php?file=$pathname\"</script>");
 			}
 		}
 		else{
