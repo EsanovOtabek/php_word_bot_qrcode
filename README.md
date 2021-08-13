@@ -1,4 +1,4 @@
-# php_word_bot_qrcode
+# php_word_bot_pdf_qrcode
 
 * "phpoffice/phpword": - https://github.com/PHPOffice/PHPWord
 * "dompdf/dompdf": -  https://github.com/dompdf/dompdf
@@ -9,7 +9,7 @@
 
 
 ------------------------------------------------------------------------------------------------------------
-# ![PHPWord](https://rawgit.com/PHPOffice/PHPWord/develop/docs/images/phpword.svg "PHPWord")
+# phpword ![PHPWord](https://rawgit.com/PHPOffice/PHPWord/develop/docs/images/phpword.svg "PHPWord")
 
 Master: 
 [![Latest Stable Version](https://poser.pugx.org/phpoffice/phpword/v/stable.png)](https://packagist.org/packages/phpoffice/phpword)
