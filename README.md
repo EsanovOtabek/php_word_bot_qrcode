@@ -635,7 +635,7 @@ http://phpqrcode.sourceforge.net/
 
 ________________________________________________________________________________________________
 
-#telegrambot
+# telegrambot
 
 ```php
 // telegram bot bilan ishlash qismi-------------------------------------------------
