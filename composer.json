@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpword": "dev-master",
+        "dompdf/dompdf": "^1.0",
+        "convertapi/convertapi-php": "^1.5"
+    }
+}
