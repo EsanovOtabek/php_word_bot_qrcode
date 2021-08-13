@@ -61,7 +61,7 @@ if($_POST['submit']){
 			$res=mysqli_query($link,$sql);
 
 			// qrcode generatsiya qilish-------------------------
-			QRcode::png("http://malikaeducation.uz/".$path."/ariza.pdf", "arizalar/ariza/qrcode/".$pathname.".png", "M", 6);
+			QRcode::png("http://lifepc.uz/".$path."/ariza.pdf", "arizalar/ariza/qrcode/".$pathname.".png", "M", 6);
 
 			// php word bilan ishlash----------------------------
 
