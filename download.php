@@ -1,4 +1,6 @@
 <?php 
+
+// pdf faylni avtoyuklash
 if(!empty($_GET['file'])){
 	$file=$_GET['file'];
 
