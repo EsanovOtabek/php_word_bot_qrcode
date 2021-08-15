@@ -1,8 +1,8 @@
 <?php
-include_once 'config.php';
+session_start();
 
-
-if($_POST['submit']){
+if($_SESSION['__shrft']==$_POST['__shrft']){
+	include_once 'config.php';
 	require_once "vendor/autoload.php";
 	require_once "vendor/convertapi/convertapi-php/lib/ConvertApi/autoload.php";
 	require_once "phpqrcode/qrlib.php";
