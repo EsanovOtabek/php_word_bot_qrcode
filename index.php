@@ -1,3 +1,7 @@
+<?php 
+session_start();
+$_SESSION['__shrft']=md5(time().rand());
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -90,6 +94,7 @@
                         
                         <div class="form-group">
                             <input style="width: 20px;border:1px solid black;" type="checkbox" name="agree" id="agree-term" class="agree-term" required>
+                            <input type="name" name="__shrft" value="<?=$_SESSION['__shrft']?>" hidden>
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>Ushbu arizani tasdiqlayman.</label>
                         </div>
                         <div class="form-group">
